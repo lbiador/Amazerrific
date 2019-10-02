@@ -1,0 +1,54 @@
+body {
+	background: lightyellow;
+}
+
+header, main, footer {
+	min-width: 855px;
+}
+
+header .container, main .container, footer .container {
+	max-width: 855px;
+	margin: auto;
+}
+
+header {
+	background: lavender;
+	overflow: auto;
+}
+
+header h1 {
+	float: left;
+	width: 570px;
+}
+
+header nav {
+	float: right;
+	width: 285px;
+	position: relative;
+}
+
+footer {
+	clear: both;
+	overflow: auto;
+}
+
+main {background: white;}
+
+footer .sitemap {
+	float: right;
+	padding: 20px;
+}
+
+footer .contact {
+	float: left;
+	padding: 20px;
+}
+
+img {
+	max-width: 10%;
+	min-width: 10%;
+	float: right;
+	width: 285px;
+}
+
+p { margin: auto; }
